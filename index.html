@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo Apps</title>
+
+    <!-- Todo Application CSS File -->
+    <link rel="stylesheet" href="TodoApp.CSS">
+</head>
+
+<body>
+    <!-- Heading Of The Application -->
+    <h1>Todo List App</h1>
+
+    <!-- Container Of The Application -->
+    <div id="container">
+
+        <!-- Input Feild For Add Task -->
+        <input placeholder="Add a task" class="add-task" id="add" data-helloWord="asdasdas" />
+        
+        <!-- Complete Option -->
+        <div id="allComplete">
+            <span id="completes">Complete</span>
+            <span id="clearComplete">Clear Complete</span>
+        </div>
+
+        <!-- Ordered List To Generate List Of Task -->
+        <ul id="lists"></ul>
+
+        <!-- It Can Used To Represent The Total Task Left -->
+        <span id="total-tasks">Task left: <span id="tasks-counter">0</span></span>
+
+        <!-- Menu Of All Different Type Of Option (All,Completed,Uncompleted) -->
+        <ul class="menu">
+            <li id="all" style="color: black;">All</li>
+            <li id="completed">Completed</li>
+            <li id="uncomplete">Uncomplete</li>
+        </ul>
+    </div>
+
+    <!-- Todo Application Script File -->
+    <script src="TodoApp.js"></script>
+</body>
+
+</html>
